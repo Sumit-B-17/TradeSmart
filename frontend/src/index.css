@@ -1,0 +1,577 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #424242;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.navbar-container{
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 50px;
+  position: relative;
+  width: 1100px;
+  max-width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.nav-item{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.footer{
+  display: block;
+  unicode-bidi: isolate;
+  background-color: #fbfbfb;
+  padding: 20px;
+}
+
+.footer-paras{
+  font-size: 0.65rem;
+}
+
+.copyright{
+  font-size: 0.8rem;
+}
+
+.footerRow div a{
+  font-size: 0.875rem;
+  text-decoration: none;
+  color: #666;
+}
+
+footer .footer-graveyard-links a{
+  text-decoration: none;
+  display: inline;
+  font-size: .8rem;
+  margin-right: 20px;
+  unicode-bidi: isolate;
+}
+
+footer ul {
+  list-style-type: none;
+}
+
+.footer-links{
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-bottom: 3rem;
+  /* margin-top: 0px; */
+  padding-inline-start: 40px;
+  unicode-bidi: isolate;
+}
+
+.footer-links h5{
+  margin-bottom: 1rem;
+}
+
+.footer-links ul{
+  list-style-type: none;
+  padding-inline-start: 0px;
+}
+
+.footer-links ul li{
+  margin-bottom: 10px;
+}
+
+.openAcc{
+  padding-top: 0rem;
+}
+
+/* About-Hero */
+.about-hero{
+  padding-top:100px;
+  padding-bottom: 100px;
+}
+
+.border-bottom {
+  border-bottom: 1px solid #eee;
+}
+
+.about-hero h2{
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+.between{
+  justify-content: space-between;
+}
+
+.about-history{
+  padding: 80px 0 0 0;
+  margin-left: 180px;
+  margin-right: 180px;
+}
+
+.history div p {
+    font-size: 1rem;
+    line-height: 1.8;
+    margin-bottom: 15px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.history-text p{
+  font-size: 1rem;
+  line-height: 1.8;
+  /* margin-bottom: 15px; */
+  color: #424242;
+}
+
+.about-people{
+  padding: 80px 0 0 0;
+}
+
+.mini-container h2{
+  margin-bottom: 25px;
+}
+
+.ceo-image {
+    height: 295px;
+    margin-bottom: 10px;
+    border-radius: 100%;
+}
+
+.ceo-container p{
+  font-size: 1rem;
+  line-height: 1.8;
+  margin-bottom: 15px;
+}
+
+.about-people .ceo-container {
+    padding: 40px 0 100px 0;
+}
+
+.mini-container {
+    width: 900px;
+    margin: auto;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+.info-text a{
+  text-decoration: none;
+}
+
+.products-header{
+  padding-top: 100px;
+  padding-bottom: 100px;
+  border-bottom: 1px solid #eee;
+}
+
+.product-description p {
+  font-size: 1rem;
+  line-height: 1.8;
+  margin-bottom: 15px;
+}
+
+.product-mobile-links {
+  margin-top: 25px;
+}
+
+.product-mobile-links a{
+  margin-right: 15px;
+}
+
+.productRow{
+  padding: 80px 0 0 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  align-items: center;
+  display: flex;
+}
+
+.product-description h2{
+  margin-bottom: 20px;
+}
+
+.product-links{
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: row wrap;
+}
+
+.product-links div a{
+  text-decoration: none;
+}
+
+.product {
+  position: relative;
+  width: 1100px;
+  max-width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.universe-container{
+  position: relative;
+  width: 1100px;
+  max-width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.container {
+    position: relative;
+    width: 1250px;
+    max-width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.universe{
+  padding: 80px 0 80px 0;
+}
+
+.universe div p{
+  font-size: 1.25rem;
+  font-weight: 400;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.universe div p a{
+  text-decoration: none;
+}
+
+.partner-products p {
+    font-size: 1rem;
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+
+.universeRow{
+  margin-top: 40px;
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.universeRow div a span {
+    line-height: 18px;
+    display: block;
+    margin-top: 10px;
+}
+
+.universeRow div a {
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+    color: #424242;
+    text-decoration: none;
+}
+
+.text-light-grey {
+    color: #9b9b9b;
+}
+
+.text-12 {
+    font-size: .75rem;
+}
+
+.universeRow div a img {
+    height: 55px;
+}
+
+.unicols{
+  align-items: center;
+}
+
+/* Pricing: Brokerage.js */
+
+.charges-header{
+  padding: 100px 0 100px 0;
+}
+
+h1 {
+    font-size: 1.75rem;
+    line-height: 1.25;
+}
+
+.landing-subheading {
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.color-grey {
+    color: #9b9b9b;
+}
+
+.between {
+    justify-content: space-between;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.prices img {
+    margin-bottom: 15px;
+    width: 250px;
+}
+
+.charges-banner-heading {
+    font-size: 1.75rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.prices p {
+    font-size: 1rem;
+    line-height: 1.8;
+    margin-bottom: 15px;
+    color: #666;
+}
+
+.charges-section{
+  padding: 80px 0 0 0;
+}
+
+.tinytabs .tabs {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+nav.tabs {
+    border-bottom: 1px solid #e1e1e1;
+    margin-bottom: 30px;
+}
+
+.tinytabs .tab.sel {
+    text-shadow: none;
+}
+
+.tinytabs .tabs .tab {
+    display: block;
+    padding: 6px 15px;
+    text-decoration: none;
+    border-radius: 3px 3px 0 0;
+    margin: 0 3px 0 0;
+}
+
+nav.tabs button.active {
+    color: #666;
+    font-weight: 500;
+    border: none;
+    border-bottom: 2px solid #387ed1 !important;
+}
+
+nav.tabs button {
+    min-width: 130px;
+    text-align: center;
+    border: none;
+    border-radius: 0;
+    font-size: 1.5rem;
+    padding: 0 35px 5px 35px;
+    color: #387ed1;
+    background: none;
+}
+
+.tabs button:hover {
+    cursor: pointer;
+    color: #444;
+}
+
+.table-container {
+    overflow: auto;
+    width: 100%;
+    max-width: 100%;
+}
+
+table {
+    border-spacing: 0;
+    width: 100%;
+    border-radius: 3px;
+    border: 1px solid #ddd;
+    display: table;
+    box-sizing: border-box;
+    border-collapse: separate;
+    text-indent: initial;
+    unicode-bidi: isolate;
+    border-spacing: 2px;
+}
+
+thead {
+    display: table-header-group;
+    vertical-align: middle;
+    unicode-bidi: isolate;
+    break-inside: if(media(overflow-block: paged): avoid;);
+    border-color: inherit;
+}
+
+table tr {
+    border-bottom: 1px solid #f4f4f4;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    unicode-bidi: isolate;
+    border-color: inherit;
+}
+
+table th {
+    margin: auto;
+}
+
+table th:first-child {
+    padding-left: 15px !important;
+    border-left: none;
+}
+
+table thead tr th {
+    font-size: .875rem;
+    font-weight: 500;
+    border-bottom: 1px solid #ddd;
+}
+
+table th, table td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+}
+
+th {
+    display: table-cell;
+    vertical-align: inherit;
+    font-weight: bold;
+    text-align: -internal-center;
+    unicode-bidi: isolate;
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    unicode-bidi: isolate;
+    border-color: inherit;
+}
+
+.charges-heads {
+    font-size: .9rem;
+    color: #666;
+    padding-left: 15px !important;
+}
+
+table td {
+    border: none !important;
+    font-size: .875rem;
+    padding: 12px 15px;
+}
+
+ul.list-items {
+    padding-left: 20px;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    padding-inline-start: 40px;
+    unicode-bidi: isolate;
+}
+
+.charges-section .brokerage-link {
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 20px;
+    /* padding-bottom: 80px; */
+}
+
+.charges-section .brokerage-link a {
+    font-weight: 400;
+    color: #387ed1;
+    text-decoration: none;
+}
+
+.charges-section .free-tag {
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: 500;
+    color: #fff;
+    background: #4caf50;
+    padding: 4px 10px;
+    border-radius: 2px;
+}
+
+.free-amc-banner {
+    display: inline-block;
+    padding: 5px 20px 5px 15px;
+    border-left: 4px solid #387ed1;
+    background: #f6fafd;
+    border-radius: 2px;
+    font-size: 1rem;
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+
+.charges-explained{
+  padding-top: 80px;
+}
+
+.charges-section .row div ul li {
+  margin-bottom: 10px;
+}
+
+/* Support Page */
+/* Hero.js */
+
+.bg-z-light-gray {
+    background-color: rgb(245, 245, 245);
+    width: 100%;
+}
+
+.support-portal{
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 1rem;
+  justify-content: space-between;
+  align-items: center;
+  width: 1230px;
+}
+
+.search-container {
+    position: relative;
+}
+
+.search-input {
+    height: 50px;
+    padding-left: 35px;
+    border: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.search-icon {
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    transform: translateY(-50%);
+    color: #888;
+}
+
+* {
+  color: #424242;
+}

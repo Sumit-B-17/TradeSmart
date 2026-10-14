@@ -1,0 +1,201 @@
+/* =========================
+   PAGE LAYOUT
+========================= */
+
+.help-page {
+  width: 100%;
+  min-height: 100vh;
+  padding: 30px 0;
+  background: #fff;
+}
+
+.help-layout {
+  width: 82%;
+  max-width: 1360px;
+  margin: 0 auto;
+
+  display: grid;
+  grid-template-columns: 3fr 1.15fr;
+  gap: 50px;
+}
+
+
+/* =========================
+   LEFT ACCORDION
+========================= */
+
+.accordion {
+  width: 100%;
+  border: 1px solid #e6e6e6;
+  margin-bottom: 35px;
+  background: #fff;
+}
+
+
+/* Header */
+
+.accordion-header {
+  height: 62px;
+
+  display: flex;
+  align-items: center;
+
+  cursor: pointer;
+}
+
+
+/* Icon box */
+
+.accordion-icon {
+  width: 75px;
+  height: 62px;
+
+  flex-shrink: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: #f8fbfd;
+  border-right: 1px solid #e6e6e6;
+
+  color: #387ed1;
+}
+
+.accordion-icon svg {
+  width: 24px;
+  height: 24px;
+}
+
+
+/* Title */
+
+.accordion-title {
+  padding-left: 16px;
+
+  font-size: 21px;
+  font-weight: 500;
+
+  color: #424242;
+}
+
+
+/* Chevron */
+
+.accordion-chevron {
+  margin-left: auto;
+  margin-right: 25px;
+
+  display: flex;
+  align-items: center;
+
+  color: #387ed1;
+}
+
+.accordion-chevron svg {
+  width: 21px;
+  height: 21px;
+}
+
+
+/* =========================
+   ACCORDION CONTENT
+========================= */
+
+.accordion-content {
+  border-top: 1px solid #e6e6e6;
+
+  padding: 22px 45px 25px;
+}
+
+.accordion-content ul {
+  margin: 0;
+  padding-left: 25px;
+}
+
+.accordion-content li {
+  padding: 6px 0;
+}
+
+.accordion-content li::marker {
+  color: #387ed1;
+  font-size: 10px;
+}
+
+.accordion-content a {
+  color: #387ed1;
+
+  font-size: 17px;
+  line-height: 1.5;
+
+  text-decoration: none;
+}
+
+
+/* =========================
+   SIDEBAR
+========================= */
+
+.announcement {
+  background: #fff4e6;
+
+  border-left: 10px solid #ff9800;
+
+  padding: 12px 18px;
+  margin-bottom: 25px;
+}
+
+.announcement ul {
+  margin: 0;
+  padding-left: 25px;
+}
+
+.announcement li {
+  padding: 5px 0;
+}
+
+.announcement a {
+  color: #387ed1;
+
+  font-size: 16px;
+  line-height: 1.5;
+
+  text-decoration: underline;
+}
+
+
+/* =========================
+   QUICK LINKS
+========================= */
+
+.quick-links {
+  border: 1px solid #e6e6e6;
+}
+
+.quick-links-heading {
+  background: #f6f6f6;
+
+  padding: 18px 23px;
+
+  font-size: 18px;
+  font-weight: 500;
+
+  color: #424242;
+}
+
+.quick-links-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.quick-links-list a {
+  padding: 16px 23px;
+
+  border-top: 1px solid #e6e6e6;
+
+  color: #387ed1;
+
+  font-size: 16px;
+
+  text-decoration: none;
+}
