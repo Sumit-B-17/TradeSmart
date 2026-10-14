@@ -7,7 +7,7 @@ const AuthGate = ({ children }) => {
     try { return JSON.parse(localStorage.getItem("tradesmart_user") || "null"); } catch (_) { return null; }
   });
   const [checking, setChecking] = useState(Boolean(token));
-  const [isRegistering, setIsRegistering] = useState(false);
+  const [isRegistering, setIsRegistering] = useState(() => new URLSearchParams(window.location.search).get("register") === "1");
   const [form, setForm] = useState({ username: "", email: "", password: "" });
   const [error, setError] = useState("");
   const [submitting, setSubmitting] = useState(false);

@@ -1,6 +1,8 @@
 import React, {useState} from "react";
 import {Link} from "react-router-dom";
 
+const marketingUrl = (process.env.REACT_APP_MARKETING_URL || "http://localhost:3000").replace(/\/$/, "");
+
 const Menu = () => {
   const [selectedMenu, setSelectedMenu] = useState(0);
   const [isProfileDropdownOpen, setIsProfileDropdownOpen] = useState("false");
@@ -60,6 +62,7 @@ const Menu = () => {
           </li>
         </ul>
         <hr />
+        <a className="menu" href={marketingUrl}>TradeSmart website</a>
         <div className="profile">
           <div className="avatar">{(currentUser?.username || "U").slice(0, 2).toUpperCase()}</div>
           <p className="username">{currentUser?.username || "User"}</p>

@@ -1,4 +1,5 @@
 import React from 'react';
+import { DASHBOARD_REGISTER_URL } from '../config';
 
 function OpenAccount() {
     return ( 
@@ -6,7 +7,7 @@ function OpenAccount() {
             <div className='row text-center'>
                 <h1 className='mt-3 text-muted fs-3 mb-4'>Open a Zerodha account</h1>
                 <p className='text-muted fs-6 mb-5'>Modern platforms and apps, ₹0 investments, and flat ₹20 intraday and F&O trades.</p>
-                <button className='p-2 btn btn-primary fs-5' style={{width: '18%', margin: '0 auto'}}>Sign up for free</button>
+                <a className='p-2 btn btn-primary fs-5' href={DASHBOARD_REGISTER_URL} style={{width: '18%', margin: '0 auto'}}>Sign up for free</a>
             </div>
         </div>
      );

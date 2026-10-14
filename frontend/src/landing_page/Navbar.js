@@ -1,5 +1,6 @@
 import React from "react";
-import {Link, link} from "react-router-dom";
+import { Link } from "react-router-dom";
+import { DASHBOARD_URL } from "../config";
 
 function Navbar() {
   return (
@@ -28,9 +29,7 @@ function Navbar() {
             <form class="d-flex" role="search">
               <ul class="navbar-links navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                  <Link class="nav-link " aria-current="page" to="/signup">
-                    Signup
-                  </Link>
+                  <a class="nav-link" href={DASHBOARD_URL}>Sign in</a>
                 </li>
                 <li class="nav-item">
                   <Link class="nav-link" to="/about">

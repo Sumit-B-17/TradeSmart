@@ -20,6 +20,7 @@ Keep the MongoDB user limited to the application database. Do not commit `.env` 
 - Build/install command: `npm ci && npm run build` (working directory: `dashboard`)
 - Publish directory: `dashboard/build`
 - Build environment variable: `REACT_APP_API_URL`, set to the backend origin with no trailing slash, for example `https://api.example.com`
+- Build environment variable: `REACT_APP_MARKETING_URL`, set to the deployed marketing site origin (for example `https://tradesmart.example.com`)
 - Configure the host's SPA rewrite so paths such as `/holdings` serve `/index.html`.
 
 The API URL is embedded during the React build, so rebuild the dashboard after changing it.
@@ -28,7 +29,10 @@ The API URL is embedded during the React build, so rebuild the dashboard after c
 
 - Build/install command: `npm ci && npm run build` (working directory: `frontend`)
 - Publish directory: `frontend/build`
+- Build environment variable: `REACT_APP_DASHBOARD_URL`, set to the deployed dashboard origin (for example `https://app.example.com`)
 - Configure the host's SPA rewrite so client-side routes such as `/about` serve `/index.html`.
+
+For local development, run the marketing app on port `3000` and the dashboard on port `3001`. The marketing site's sign-in and account buttons open the dashboard; account buttons open its registration form. The dashboard links back to the marketing site. Override the local origins with the environment variables above when deploying.
 
 ## Before launch
 
